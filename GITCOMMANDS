@@ -1,6 +1,7 @@
 #git log --> to show the commit id and commit status
 #git status --> to see the commit status and their stages
 #git clone <github url> --> to clone the remote repo to our local machine
+git clone -b branch_name <github url> --> to clone a particular branch from the remote repo
 #git add. (or) #git add --all (or) # git add <file name> --> to add your file from work dir to staging file
 #git commit -m "commit message" -->commit from work dir to stage file
 #git push -u origin <destination branch> --> push the commit from staging to remote repo
@@ -21,5 +22,6 @@
 #git rebase -i Head~4 --> to avoid multiple commit id(given command will have 4 commits together)
 #git restore <filename> --> to revert changes in working dir
 #.gitignore --> to avoid the file while commiting the chnages
-
+git switch branchname
+git restore --staged file_name --> to restore file from staging.
  
