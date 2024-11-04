@@ -1,0 +1,25 @@
+#git log --> to show the commit id and commit status
+#git status --> to see the commit status and their stages
+#git clone <github url> --> to clone the remote repo to our local machine
+#git add. (or) #git add --all (or) # git add <file name> --> to add your file from work dir to staging file
+#git commit -m "commit message" -->commit from work dir to stage file
+#git push -u origin <destination branch> --> push the commit from staging to remote repo
+#git remote add origin <github url> to add the remote url in local 
+#git branch --> shows all available branch
+#git branch <branch name> --> to create new branch
+#git checkout <brach name> --> to swaitch the required branch 
+#git checkout -b <branch name> --> create new branch and switch to the created branch
+#git diff --> shows the difference between commit
+#git diff HEAD --> difference between local repo commit and others
+#git diff <commit id 1> <commit id 2> --> difference between two select commit id
+#git annotate --> shows all details of commits with their user name
+#git merge --> to merge first we to checkout to destination brach then we should execute the git merge command
+#git pull --> if we git pull is executed from local repo the change will reflect on both staging file and work dir
+#git fetch --> if git fetch is executed from local repo it will chnage till staging file and then we need to give git merge from work dir to receive the update
+#fork --> used as snapshot from one github to another github
+#git tag -->to have quick point in time refernce on working version commit
+#git rebase -i Head~4 --> to avoid multiple commit id(given command will have 4 commits together)
+#git restore <filename> --> to revert changes in working dir
+#.gitignore --> to avoid the file while commiting the chnages
+
+ 
